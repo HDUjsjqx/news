@@ -5,13 +5,15 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-AUTHOR = u'HDUjsjqx'
-SITENAME = u"HDUjsjqx's News"
+AUTHOR = u'HDU 计算机青协'
+SITENAME = u"News"
 SITEURL = ''
 
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
+DATE_FORMATS = '%Y-%m-%d'
+DEFAULT_DATE_FORMAT = '%Y-%m-%d'
 
 DEFAULT_LANG = u'ZH'
 
