@@ -7,7 +7,7 @@ sys.setdefaultencoding('utf-8')
 
 AUTHOR = u'HDU 计算机青协'
 SITENAME = u"News"
-SITEURL = ''
+SITEURL = 'http://news.hdujsjqx.org'
 
 PATH = 'content'
 
