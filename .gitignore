@@ -1,0 +1,12 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# virtualenv folder
+/**/venv
+
+# output folder
+output/
+
+# cache folder
+cache/
