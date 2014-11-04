@@ -2,13 +2,14 @@ Title: Hello world
 Date: 2014-09-22 20:49
 Category: 2014
 Tags: 青协
+Slug: hello-world
 
 Hello, world.
 
 今天是新学期开学第一天，也是我们的网站上线的第二天(昨天就上线了，太晚就睡了=。=)。
 所以还是有必要写一篇文章来说点什么。
 
-之所以有<http://www.hdujsjqx.org>的原因主要有两个：  
+之所以有<http://www.hdujsjqx.org>的原因主要有两个：
 
 * 有必要开始积累，之前的青协历史已经不可考究，所以<http://news.hdujsjqx.org>
   是为了记录青协的活动啊，重大事项什么的，而<http://gallery.hdujsjqx.org>
@@ -29,7 +30,7 @@ Hello, world.
    知道我们这些时间都去做了那些事情，也给以后的青协的活动组织安排有个参照。
    既然是自己管理的站点，便可以自己管理写点自己的了。
 
-虽然写的很渣，但是还是要给大家上线给大家看，我看到 lepture 说他看到[yedingding]说[]：
+虽然写的很渣，但是还是要给大家上线给大家看，我看到 lepture 说他看到[yedingding][]说：
 
 > 我们每天都能给自己找很多理由说发布时机未到，比如产品不够完美需要再改进，比如怕
 给用户的第一印象不好， 比如如果有某些新功能会更好，比如还需要再多测试一会，尤其
@@ -44,7 +45,7 @@ Hello, world.
 是为记。
 
 
-2014.9.22 22:22:18  
+2014.9.22 22:22  
 cwj
 
 [startup framework]: http://designmodo.com/startup/
@@ -54,4 +55,4 @@ cwj
 [nanoGallery]: https://github.com/Kris-B/nanoGALLERY
 [pelican]: https://github.com/getpelican/pelican
 [Just-Read]: https://github.com/getpelican/pelican-themes/tree/master/Just-Read
-[yedingding说]: http://yedingding.com/2014/03/12/bootstrapping-your-startup-idea.html
+[yedingding]: http://yedingding.com/2014/03/12/bootstrapping-your-startup-idea.html
