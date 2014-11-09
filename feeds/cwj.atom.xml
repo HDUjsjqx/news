@@ -1,35 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>News</title><link href="http://news.hdujsjqx.org/" rel="alternate"></link><link href="http://news.hdujsjqx.org/feeds/hdu-ji-suan-ji-qing-xie.atom.xml" rel="self"></link><id>http://news.hdujsjqx.org/</id><updated>2014-10-24T21:49:00+02:00</updated><entry><title>计算机小队第一次见面会</title><link href="http://news.hdujsjqx.org/xiao-dui-jian-mian-hui.html" rel="alternate"></link><updated>2014-10-24T21:49:00+02:00</updated><author><name>HDU 计算机青协</name></author><id>tag:news.hdujsjqx.org,2014-10-24:xiao-dui-jian-mian-hui.html</id><summary type="html">&lt;p&gt;本周五晚上，我们计算机小队进行了第一次的见面会。&lt;/p&gt;
-&lt;p&gt;计算机小队的成立的原因在于我们希望能够结合自身专业特色，做一点我们能做的志愿
-活动，成立的初期将主要为行政楼的老师解决一些简单的电脑问题。&lt;/p&gt;
-&lt;p&gt;本次见面会的主要内容是:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;小队成员之间的相互认识&lt;/li&gt;
-&lt;li&gt;小队目前的情况&lt;/li&gt;
-&lt;li&gt;小队的运行和管理&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;希望大家在今后能把小队发展地更好，让我们的青协变得更好。同时玩的更加愉快 :)&lt;/p&gt;
-&lt;p&gt;2014.10.24 22:05&lt;br /&gt;
-cwj&lt;/p&gt;</summary><category term="青协"></category></entry><entry><title>计算机青协新干事第一次见面会</title><link href="http://news.hdujsjqx.org/qx-jian-mian-hui.html" rel="alternate"></link><updated>2014-10-19T20:49:00+02:00</updated><author><name>HDU 计算机青协</name></author><id>tag:news.hdujsjqx.org,2014-10-19:qx-jian-mian-hui.html</id><summary type="html">&lt;p&gt;上次招新完成之后，我们在 10-19 日进行第一次的新干事见面会，全体青协人员一同
-参加。&lt;/p&gt;
-&lt;p&gt;首先是由会长致辞，然后是各部门职能和自己部门人员的介绍，接下来是欢快的游戏环节。&lt;/p&gt;
-&lt;p&gt;本次见面会的主要目的在于增进新干事对于青协的进一步认识，认识到青协内部
-的更多其他部门的人以及增进相互之间的感情和团结。&lt;/p&gt;
-&lt;p&gt;2014.10.19 21:15&lt;br /&gt;
-cwj&lt;/p&gt;</summary><category term="青协"></category></entry><entry><title>计算机青协2014招新</title><link href="http://news.hdujsjqx.org/2014-zhao-xin.html" rel="alternate"></link><updated>2014-09-30T20:49:00+02:00</updated><author><name>HDU 计算机青协</name></author><id>tag:news.hdujsjqx.org,2014-09-30:2014-zhao-xin.html</id><summary type="html">&lt;p&gt;我们分别在 2014.9.27 和 2014.9.29 晚上进行了第一轮和第二轮招新面试。招新的结果如下&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;助理：2人&lt;/li&gt;
-&lt;li&gt;办公室：6人&lt;/li&gt;
-&lt;li&gt;基地拓展部：7人&lt;/li&gt;
-&lt;li&gt;外联部：8人&lt;/li&gt;
-&lt;li&gt;项目拓展部：8人&lt;/li&gt;
-&lt;li&gt;宣传部：8人&lt;/li&gt;
-&lt;li&gt;组织部：8人&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;加上各个部门每个正副部长各 1 人，会长团 4 人， 会长助理 1 人， 目前青协的人数为 63 人。&lt;/p&gt;
-&lt;p&gt;希望大家在新的一年里相互合作，玩的开心，让青协变得更好 :)&lt;/p&gt;
-&lt;p&gt;2014.9.30 22:52:35
-cwj&lt;/p&gt;</summary><category term="青协"></category></entry><entry><title>Hello world</title><link href="http://news.hdujsjqx.org/hello-world.html" rel="alternate"></link><updated>2014-09-22T20:49:00+02:00</updated><author><name>HDU 计算机青协</name></author><id>tag:news.hdujsjqx.org,2014-09-22:hello-world.html</id><summary type="html">&lt;p&gt;Hello, world.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>News</title><link href="http://news.hdujsjqx.org/" rel="alternate"></link><link href="http://news.hdujsjqx.org/feeds/cwj.atom.xml" rel="self"></link><id>http://news.hdujsjqx.org/</id><updated>2014-09-22T20:49:00+02:00</updated><entry><title>Hello world</title><link href="http://news.hdujsjqx.org/hello-world.html" rel="alternate"></link><updated>2014-09-22T20:49:00+02:00</updated><author><name>cwj</name></author><id>tag:news.hdujsjqx.org,2014-09-22:hello-world.html</id><summary type="html">&lt;p&gt;Hello, world.&lt;/p&gt;
 &lt;p&gt;今天是新学期开学第一天，也是我们的网站上线的第二天(昨天就上线了，太晚就睡了=。=)。
 所以还是有必要写一篇文章来说点什么。&lt;/p&gt;
 &lt;p&gt;之所以有&lt;a href="http://www.hdujsjqx.org"&gt;http://www.hdujsjqx.org&lt;/a&gt;的原因主要有两个：&lt;/p&gt;
