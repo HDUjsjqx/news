@@ -1,18 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>News</title><link href="http://news.hdujsjqx.org/" rel="alternate"></link><link href="http://news.hdujsjqx.org/feeds/hdu-ji-suan-ji-qing-xie.atom.xml" rel="self"></link><id>http://news.hdujsjqx.org/</id><updated>2014-11-04T16:33:00+01:00</updated><entry><title>This is a test</title><link href="http://news.hdujsjqx.org/this-is-a-test.html" rel="alternate"></link><updated>2014-11-04T16:33:00+01:00</updated><author><name>HDU 计算机青协</name></author><id>tag:news.hdujsjqx.org,2014-11-04:this-is-a-test.html</id><summary type="html">&lt;h1&gt;First&lt;/h1&gt;
-&lt;h2&gt;second&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>News</title><link href="http://news.hdujsjqx.org/" rel="alternate"></link><link href="http://news.hdujsjqx.org/feeds/hdu-ji-suan-ji-qing-xie.atom.xml" rel="self"></link><id>http://news.hdujsjqx.org/</id><updated>2014-11-08T21:49:00+01:00</updated><entry><title>计算机小队第二次交流见面会</title><link href="http://news.hdujsjqx.org/xiao-dui-jian-mian-hui-2.html" rel="alternate"></link><updated>2014-11-08T21:49:00+01:00</updated><author><name>HDU 计算机青协</name></author><id>tag:news.hdujsjqx.org,2014-11-08:xiao-dui-jian-mian-hui-2.html</id><summary type="html">&lt;p&gt;本周六晚上，我们计算机小队进行了第二次的交流见面会。本次的主题为维修与重装系统，
+希望平时大家多多实践，多多感悟。“纸上得来终觉浅，绝知此事要躬行”。&lt;/p&gt;
+&lt;p&gt;希望这样形式的见面交流会能够带给大家不一样的感受，大家相互交流，相互学习，共同
+进步。我们将努力使它变得更加有趣，更加好玩，更加有规律性，希望大家积极参与。我
+们也十分希望得到你的意见和建议，使它变得更加好。&lt;/p&gt;
+&lt;p&gt;希望小队发展得越来越好。&lt;/p&gt;
+&lt;p&gt;2014.11.08 22:10&lt;br /&gt;
+cwj&lt;/p&gt;</summary><category term="青协"></category></entry><entry><title>计算机青协招募会员</title><link href="http://news.hdujsjqx.org/zhao-hui-yuan.html" rel="alternate"></link><updated>2014-11-06T20:49:00+01:00</updated><author><name>HDU 计算机青协</name></author><id>tag:news.hdujsjqx.org,2014-11-06:zhao-hui-yuan.html</id><summary type="html">&lt;p&gt;计算机青协于本周三，四，也就是11月5日和11月6日进行了会员招新，截至目前，已经有
+35 人自愿报名参加。&lt;/p&gt;
+&lt;p&gt;加入计算机青协会员后，你将有机会参加青协的各种志愿活动，希望在接下来的时间里，
+各位亲爱的会员们能够积极参加我们青协的活动，希望你们在计算机青协玩的开心。&lt;/p&gt;
+&lt;p&gt;错过了我们的摆摊时间而仍希望有机会参与到我们中来，你可以申请加入我们的计算机
+会员群，群号为：97611968.&lt;/p&gt;
+&lt;p&gt;Enjoy and have fun :)&lt;/p&gt;
+&lt;p&gt;2014.11.6 21:08&lt;br /&gt;
+cwj&lt;/p&gt;</summary><category term="青协"></category></entry><entry><title>计算机小队第一次见面会</title><link href="http://news.hdujsjqx.org/xiao-dui-jian-mian-hui.html" rel="alternate"></link><updated>2014-10-24T21:49:00+02:00</updated><author><name>HDU 计算机青协</name></author><id>tag:news.hdujsjqx.org,2014-10-24:xiao-dui-jian-mian-hui.html</id><summary type="html">&lt;p&gt;本周五晚上，我们计算机小队进行了第一次的见面会。&lt;/p&gt;
+&lt;p&gt;计算机小队的成立的原因在于我们希望能够结合自身专业特色，做一点我们能做的志愿
+活动，成立的初期将主要为行政楼的老师解决一些简单的电脑问题。&lt;/p&gt;
+&lt;p&gt;本次见面会的主要内容是:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;first&lt;/li&gt;
-&lt;li&gt;second&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;third&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;first&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;second&lt;/li&gt;
-&lt;li&gt;third&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="青协"></category></entry><entry><title>计算机青协2014招新</title><link href="http://news.hdujsjqx.org/ji-suan-ji-qing-xie-2014zhao-xin.html" rel="alternate"></link><updated>2014-09-30T20:49:00+02:00</updated><author><name>HDU 计算机青协</name></author><id>tag:news.hdujsjqx.org,2014-09-30:ji-suan-ji-qing-xie-2014zhao-xin.html</id><summary type="html">&lt;p&gt;我们分别在 2014.9.27 和 2014.9.29 晚上进行了第一轮和第二轮招新面试。招新的结果如下&lt;/p&gt;
+&lt;li&gt;小队成员之间的相互认识&lt;/li&gt;
+&lt;li&gt;小队目前的情况&lt;/li&gt;
+&lt;li&gt;小队的运行和管理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;希望大家在今后能把小队发展地更好，让我们的青协变得更好。同时玩的更加愉快 :)&lt;/p&gt;
+&lt;p&gt;2014.10.24 22:05&lt;br /&gt;
+cwj&lt;/p&gt;</summary><category term="青协"></category></entry><entry><title>计算机青协新干事第一次见面会</title><link href="http://news.hdujsjqx.org/qx-jian-mian-hui.html" rel="alternate"></link><updated>2014-10-19T20:49:00+02:00</updated><author><name>HDU 计算机青协</name></author><id>tag:news.hdujsjqx.org,2014-10-19:qx-jian-mian-hui.html</id><summary type="html">&lt;p&gt;上次招新完成之后，我们在 10-19 日进行第一次的新干事见面会，全体青协人员一同
+参加。&lt;/p&gt;
+&lt;p&gt;首先是由会长致辞，然后是各部门职能和自己部门人员的介绍，接下来是欢快的游戏环节。&lt;/p&gt;
+&lt;p&gt;本次见面会的主要目的在于增进新干事对于青协的进一步认识，认识到青协内部
+的更多其他部门的人以及增进相互之间的感情和团结。&lt;/p&gt;
+&lt;p&gt;2014.10.19 21:15&lt;br /&gt;
+cwj&lt;/p&gt;</summary><category term="青协"></category></entry><entry><title>计算机青协2014招新</title><link href="http://news.hdujsjqx.org/2014-zhao-xin.html" rel="alternate"></link><updated>2014-09-30T20:49:00+02:00</updated><author><name>HDU 计算机青协</name></author><id>tag:news.hdujsjqx.org,2014-09-30:2014-zhao-xin.html</id><summary type="html">&lt;p&gt;我们分别在 2014.9.27 和 2014.9.29 晚上进行了第一轮和第二轮招新面试。招新的结果如下&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;助理：2人&lt;/li&gt;
 &lt;li&gt;办公室：6人&lt;/li&gt;
@@ -28,7 +47,7 @@
 cwj&lt;/p&gt;</summary><category term="青协"></category></entry><entry><title>Hello world</title><link href="http://news.hdujsjqx.org/hello-world.html" rel="alternate"></link><updated>2014-09-22T20:49:00+02:00</updated><author><name>HDU 计算机青协</name></author><id>tag:news.hdujsjqx.org,2014-09-22:hello-world.html</id><summary type="html">&lt;p&gt;Hello, world.&lt;/p&gt;
 &lt;p&gt;今天是新学期开学第一天，也是我们的网站上线的第二天(昨天就上线了，太晚就睡了=。=)。
 所以还是有必要写一篇文章来说点什么。&lt;/p&gt;
-&lt;p&gt;之所以有&lt;a href="http://www.hdujsjqx.org"&gt;http://www.hdujsjqx.org&lt;/a&gt;的原因主要有两个：  &lt;/p&gt;
+&lt;p&gt;之所以有&lt;a href="http://www.hdujsjqx.org"&gt;http://www.hdujsjqx.org&lt;/a&gt;的原因主要有两个：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;有必要开始积累，之前的青协历史已经不可考究，所以&lt;a href="http://news.hdujsjqx.org"&gt;http://news.hdujsjqx.org&lt;/a&gt;
   是为了记录青协的活动啊，重大事项什么的，而&lt;a href="http://gallery.hdujsjqx.org"&gt;http://gallery.hdujsjqx.org&lt;/a&gt;
@@ -49,7 +68,7 @@ cwj&lt;/p&gt;</summary><category term="青协"></category></entry><entry><title>
    知道我们这些时间都去做了那些事情，也给以后的青协的活动组织安排有个参照。
    既然是自己管理的站点，便可以自己管理写点自己的了。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;虽然写的很渣，但是还是要给大家上线给大家看，我看到 lepture 说他看到[yedingding]说[]：&lt;/p&gt;
+&lt;p&gt;虽然写的很渣，但是还是要给大家上线给大家看，我看到 lepture 说他看到&lt;a href="http://yedingding.com/2014/03/12/bootstrapping-your-startup-idea.html"&gt;yedingding&lt;/a&gt;说：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;我们每天都能给自己找很多理由说发布时机未到，比如产品不够完美需要再改进，比如怕
 给用户的第一印象不好， 比如如果有某些新功能会更好，比如还需要再多测试一会，尤其
@@ -60,5 +79,5 @@ cwj&lt;/p&gt;</summary><category term="青协"></category></entry><entry><title>
 &lt;p&gt;我说了说我的初衷，是希望以后青协的人能看到这个站点的初始目标。其实，
 网站写的再好又有什么用呢，最主要的是后期的维护，要记得传照片，写新闻，做点什么。&lt;/p&gt;
 &lt;p&gt;是为记。&lt;/p&gt;
-&lt;p&gt;2014.9.22 22:22:18&lt;br /&gt;
+&lt;p&gt;2014.9.22 22:22&lt;br /&gt;
 cwj&lt;/p&gt;</summary><category term="青协"></category></entry></feed>
