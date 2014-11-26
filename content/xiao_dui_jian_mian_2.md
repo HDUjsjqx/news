@@ -2,7 +2,7 @@ Title: 计算机小队第二次交流见面会
 Date: 2014-11-08 21:49
 Category: 2014
 Tags: 青协
-Slug: xiao-dui-jian-mian-hui_2
+Slug: xiao-dui-jian-mian-hui-2
 
 本周六晚上，我们计算机小队进行了第二次的交流见面会。本次的主题为维修与重装系统，
 希望平时大家多多实践，多多感悟。“纸上得来终觉浅，绝知此事要躬行”。
