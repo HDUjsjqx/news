@@ -1,7 +1,7 @@
 Title: 计算机小队第四次交流见面会
 Date: 2014-11-28 22:09
 Category: 2014
-Tags: 青协
+Tags: 青协,小队
 Slug: xiao-dui-jian-mian-hui-4
 
 计算机学院青年志愿者协会小队见面会, 还是在老时间--本周五晚上进行，本次是第四次。
@@ -17,4 +17,4 @@ Slug: xiao-dui-jian-mian-hui-4
 
 
 2014.11.28 22:23  
-cwj
+凌聪聪

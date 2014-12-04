@@ -1,7 +1,7 @@
 Title: 计算机小队第一次见面会
 Date: 2014-10-24 21:49
 Category: 2014
-Tags: 青协
+Tags: 青协,小队
 Slug: xiao-dui-jian-mian-hui
 
 本周五晚上，我们计算机小队进行了第一次的见面会。

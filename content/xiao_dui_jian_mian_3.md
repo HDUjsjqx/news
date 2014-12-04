@@ -2,7 +2,7 @@ Title: 计算机小队第三次交流见面会
 Date: 2014-11-14 21:49
 Category: 2014
 Author: CWJ
-Tags: 青协
+Tags: 青协, 小队
 Slug: xiao-dui-jian-mian-hui-3
 
 第三次计算机学院青年志愿者协会小队见面会于本周五晚上顺利进行。
