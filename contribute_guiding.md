@@ -1,6 +1,3 @@
-Title: Contributing Guide
-Date: 2014-12-22 11:49
-
 ### 新闻文章写些什么
 
 主要就是写 when, where, what, how, 我们青协在什么时候，什么地点，做了什么，有
@@ -19,8 +16,8 @@ Date: 2014-12-22 11:49
 
         $ git clone git@github.com:HDUjsjqx/news.git
         $ cd news
-        $ virtualenv venv                                # 创建虚拟环境
-        $ source venv/bin/activate                       # 激活虚拟环境
+        $ virtualenv venv  # 创建虚拟环境
+        $ source venv/bin/activate  # 激活虚拟环境
         (venv)$ pip install pelican markdown ghp-import  # 安装相关依赖和工具
 
 ### 如何更新网站
@@ -30,22 +27,21 @@ Date: 2014-12-22 11:49
 说明一下如何更新网站:
 
 * 写文章。文本语法使用 markdown(.md 结尾)， 开头都要有相应的元数据，比如
-
     >   Title: “点滴温暖，感恩于心”--感恩节活动     # 标题
-    >   Date: 2014-11-26 21:09                      # 日期时间
-    >   Category: 2014                              # 分类, 暂时按照年份
-    >   Tags: 青协                                  # 标签，请打上不同的标签
-    >   Slug: gan-en-jie                            # 这个与链接有关，这篇文章为 http://news.hdujsjqx.org/gan-en-jie
+        Date: 2014-11-26 21:09                      # 日期时间
+        Category: 2014                              # 分类, 暂时按照年份
+        Tags: 青协                                  # 标签，请打上不同的标签
+        Slug: gan-en-jie                            # 这个与链接有关，这篇文章为 http://news.hdujsjqx.org/gan-en-jie
 
   文章的内容见前面所说的`新闻文章写些什么`。如果感觉可以，并且你有相应的权限，
   那么可以 push 到 github 上了。
 
-        $ git add xxx.md
-        $ git commit -m 'Add post: xxxx'
-        $ git push origin master
+    $ git add xxx.md
+    $ git commit -m 'Add post: xxxx'
+    $ git push origin master
 
 * 现在，我们假设你已经写好了一篇文章，我们首先在 news 目录下使用 `make html`
-  命令把 markdown 文件转成 html，这时候，你应该可以在 `output` 文件夹下发现
+  命令把 markdown 文件转成 html， 这时候，你应该可以在 `output` 文件夹下发现
   你写好的文章了。
 
 * 预览了之后，感觉效果也不错，是时候更新网站了。但是，在这之前，还有一件重要的
@@ -59,3 +55,4 @@ Date: 2014-12-22 11:49
 
         $ git push origin master  # 将本地的新的 markdown 文件推送到 github
         $ ghp-import -p output    # 更新网站
+
