@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="">	
+<head>
+	<meta charset="utf-8"/>
+	<title>Contributing Guide - News</title>	
+	<meta name="author" content="HDU 计算机青协">
+	
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0">
+	
+	<link href='https://fonts.lug.ustc.edu.cn/css?family=Droid+Sans:700,400|Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://news.hdujsjqx.org/theme/css/main.css" type="text/css" />
+		
+	<!--[if lt IE 9]>
+		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	
+	<link href="http://news.hdujsjqx.org/" type="application/atom+xml" rel="alternate" title="News ATOM Feed" />
+</head>
+	
+<body>		
+	<header class="clearfix" role="banner">
+		<div class="wrapper">
+			<h1 class="huge"><a href="http://news.hdujsjqx.org">News</a></h1>
+		</div>
+	</header>
+	
+<div role="main" class="content clearfix">	
+	<article>
+		<div class="post wrapper">
+			<h1>Contributing Guide</h1>
+			<h3>新闻文章写些什么</h3>
+<p>主要就是写 when, where, what, how, 我们青协在什么时候，什么地点，做了什么，有
+啥感悟和想法，形式没有特别要求，字数不限，关键是写出自己的<strong>真实感受和想法</strong>，
+这个不是强制性的总结，不需要特定格式和特定内容，想写什么写什么。注意:</p>
+<ul>
+<li>不要用模板去套写</li>
+<li>不要有任何形式的空泛的套话，无意义的意义</li>
+</ul>
+<h3>本地环境要求</h3>
+<ul>
+<li>Linux</li>
+<li>Python 2.7+</li>
+<li>pip(apt-get installl python-pip)</li>
+<li>virtualenv(pip install virtualenv)<div class="highlight"><pre><span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="nd">@github.com</span><span class="p">:</span><span class="n">HDUjsjqx</span><span class="o">/</span><span class="n">news</span><span class="o">.</span><span class="n">git</span>
+<span class="n">cd</span> <span class="n">news</span><span class="err">`</span>
+<span class="n">virtualenv</span> <span class="n">venv</span>  <span class="c"># 创建虚拟环境</span>
+<span class="n">source</span> <span class="n">venv</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">activate</span>  <span class="c"># 激活虚拟环境</span>
+<span class="p">(</span><span class="n">venv</span><span class="p">)</span><span class="err">$</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">pelican</span> <span class="n">markdown</span> <span class="n">ghp</span><span class="o">-</span><span class="kn">import</span>  <span class="c"># 安装相关依赖和工具</span>
+</pre></div>
+
+
+</li>
+</ul>
+<h3>如何更新网站</h3>
+<p>截至2014.12.22，我们的 <a href="http://news.hdujsjqx.org">news</a> 目前是托管在 github 上
+的，当我们把写好的 markdown 文件 push 到 github 上后，网站还是没有更新的，下面
+说明一下如何更新网站:</p>
+<ul>
+<li>写文章。文本语法使用 markdown(.md 结尾)， 开头都要有相应的元数据，比如
+    &gt;   Title: “点滴温暖，感恩于心”--感恩节活动     # 标题
+    &gt;   Date: 2014-11-26 21:09                      # 日期时间
+    &gt;   Category: 2014                              # 分类, 暂时按照年份
+    &gt;   Tags: 青协                                  # 标签，请打上不同的标签
+    &gt;   Slug: gan-en-jie                            # 这个与链接有关，这篇文章为 http://news.hdujsjqx.org/gan-en-jie</li>
+</ul>
+<p>文章的内容见前面所说的<code>新闻文章写些什么</code>。如果感觉可以，并且你有相应的权限，
+  那么可以 push 到 github 上了。</p>
+<div class="highlight"><pre><span class="err">$</span> <span class="n">git</span> <span class="n">add</span> <span class="n">xxx</span><span class="p">.</span><span class="n">md</span>
+<span class="err">$</span> <span class="n">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="err">&#39;</span><span class="n">Add</span> <span class="n">post</span><span class="o">:</span> <span class="n">xxxx</span><span class="err">&#39;</span>
+<span class="err">$</span> <span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="n">master</span>
+</pre></div>
+
+
+<ul>
+<li>
+<p>现在，我们假设你已经写好了一篇文章，我们首先在 news 目录下使用 <code>make html</code>
+  命令把 markdown 文件转成 html， 这时候，你应该可以在 <code>output</code> 文件夹下发现
+  你写好的文章了。</p>
+</li>
+<li>
+<p>预览了之后，感觉效果也不错，是时候更新网站了。但是，在这之前，还有一件重要的
+  事情要做。由于我们使用了 custom domain(也就是可以通过 http://news.hdujsjqx.org 访问)
+  来访问，所以<strong>务必</strong>记得手动在 <code>output</code> 文件夹下添加一个 CNAME 文件，内容为
+  <code>news.hdujsjqx.org</code>。 好了之后，建议使用使用 <code>ghp-import</code> 来帮助我们更
+  加简单快捷地完成这一任务, 在 news 目录下运行 <code>ghp-import -p output</code>，是的，
+  稍等一下你就可以看到你的文章已经可以在我们的网站上看到了。</p>
+</li>
+<li>
+<p>恩，总结一下。</p>
+<div class="highlight"><pre><span class="err">$</span> <span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="n">master</span>  <span class="err">#</span> <span class="err">将本地的新的</span> <span class="n">markdown</span> <span class="err">文件推送到</span> <span class="n">github</span>
+<span class="err">$</span> <span class="n">ghp</span><span class="o">-</span><span class="n">import</span> <span class="o">-</span><span class="n">p</span> <span class="n">output</span>    <span class="err">#</span> <span class="err">更新网站</span>
+</pre></div>
+
+
+</li>
+</ul>
+			
+			
+						
+			
+		</div>
+	
+<div class="meta wrapper">
+	<time datetime="2014-12-22T11:49:00" pubdate>2014-12-22</time>
+	<ul class="tag clearfix">
+		<li><a href="http://news.hdujsjqx.org/category/misc.html">misc</a></li>
+	</ul>
+</div>	</article>	
+</div>
+	
+		
+<footer class="clearfix">
+	<div class="wrapper pages">
+		<ul class="nav">
+			<li><a href="http://news.hdujsjqx.org/archives.html">Archive</a></li>
+		</ul>
+	</div>
+	
+	<div class="copy wrapper">
+		<p role="contentinfo">© 2014 <a href="http://www.hdujsjqx.org">HDU 计算机青协</a><br>
+		Powered by <a href="https://github.com/getpelican/pelican">Pelican</a>.&nbsp
+		Theme by <a href="https://github.com/getpelican/pelican-themes/tree/master/Just-Read">Just-Read</a>.</p>
+	</div>
+</footer>
+	
+	<script>
+	  var _gaq=[['_setAccount',''],['_trackPageview']];
+	  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	  s.parentNode.insertBefore(g,s)}(document,'script'));
+	</script>
+</body>
+</html>
