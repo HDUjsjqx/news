@@ -1,74 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>News</title><link href="http://news.hdujsjqx.org/" rel="alternate"></link><link href="http://news.hdujsjqx.org/feeds/hdu-ji-suan-ji-qing-xie.atom.xml" rel="self"></link><id>http://news.hdujsjqx.org/</id><updated>2014-12-22T11:49:00+01:00</updated><entry><title>Contributing Guide</title><link href="http://news.hdujsjqx.org/contributing-guide.html" rel="alternate"></link><updated>2014-12-22T11:49:00+01:00</updated><author><name>HDU 计算机青协</name></author><id>tag:news.hdujsjqx.org,2014-12-22:contributing-guide.html</id><summary type="html">&lt;h3&gt;新闻文章写些什么&lt;/h3&gt;
-&lt;p&gt;主要就是写 when, where, what, how, 我们青协在什么时候，什么地点，做了什么，有
-啥感悟和想法，形式没有特别要求，字数不限，关键是写出自己的&lt;strong&gt;真实感受和想法&lt;/strong&gt;，
-这个不是强制性的总结，不需要特定格式和特定内容，想写什么写什么。注意:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;不要用模板去套写&lt;/li&gt;
-&lt;li&gt;不要有任何形式的空泛的套话，无意义的意义&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;本地环境要求&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Linux&lt;/li&gt;
-&lt;li&gt;Python 2.7+&lt;/li&gt;
-&lt;li&gt;pip(apt-get installl python-pip)&lt;/li&gt;
-&lt;li&gt;virtualenv(pip install virtualenv)&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;clone&lt;/span&gt; &lt;span class="n"&gt;git&lt;/span&gt;&lt;span class="nd"&gt;@github.com&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="n"&gt;HDUjsjqx&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;news&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt;
-&lt;span class="n"&gt;cd&lt;/span&gt; &lt;span class="n"&gt;news&lt;/span&gt;&lt;span class="err"&gt;`&lt;/span&gt;
-&lt;span class="n"&gt;virtualenv&lt;/span&gt; &lt;span class="n"&gt;venv&lt;/span&gt;  &lt;span class="c"&gt;# 创建虚拟环境&lt;/span&gt;
-&lt;span class="n"&gt;source&lt;/span&gt; &lt;span class="n"&gt;venv&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nb"&gt;bin&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;activate&lt;/span&gt;  &lt;span class="c"&gt;# 激活虚拟环境&lt;/span&gt;
-&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;venv&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;pip&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;pelican&lt;/span&gt; &lt;span class="n"&gt;markdown&lt;/span&gt; &lt;span class="n"&gt;ghp&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt;  &lt;span class="c"&gt;# 安装相关依赖和工具&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;如何更新网站&lt;/h3&gt;
-&lt;p&gt;截至2014.12.22，我们的 &lt;a href="http://news.hdujsjqx.org"&gt;news&lt;/a&gt; 目前是托管在 github 上
-的，当我们把写好的 markdown 文件 push 到 github 上后，网站还是没有更新的，下面
-说明一下如何更新网站:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;写文章。文本语法使用 markdown(.md 结尾)， 开头都要有相应的元数据，比如
-    &amp;gt;   Title: “点滴温暖，感恩于心”--感恩节活动     # 标题
-    &amp;gt;   Date: 2014-11-26 21:09                      # 日期时间
-    &amp;gt;   Category: 2014                              # 分类, 暂时按照年份
-    &amp;gt;   Tags: 青协                                  # 标签，请打上不同的标签
-    &amp;gt;   Slug: gan-en-jie                            # 这个与链接有关，这篇文章为 http://news.hdujsjqx.org/gan-en-jie&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;文章的内容见前面所说的&lt;code&gt;新闻文章写些什么&lt;/code&gt;。如果感觉可以，并且你有相应的权限，
-  那么可以 push 到 github 上了。&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;add&lt;/span&gt; &lt;span class="n"&gt;xxx&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;md&lt;/span&gt;
-&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;commit&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;Add&lt;/span&gt; &lt;span class="n"&gt;post&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;xxxx&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;
-&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;push&lt;/span&gt; &lt;span class="n"&gt;origin&lt;/span&gt; &lt;span class="n"&gt;master&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;现在，我们假设你已经写好了一篇文章，我们首先在 news 目录下使用 &lt;code&gt;make html&lt;/code&gt;
-  命令把 markdown 文件转成 html， 这时候，你应该可以在 &lt;code&gt;output&lt;/code&gt; 文件夹下发现
-  你写好的文章了。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;预览了之后，感觉效果也不错，是时候更新网站了。但是，在这之前，还有一件重要的
-  事情要做。由于我们使用了 custom domain(也就是可以通过 http://news.hdujsjqx.org 访问)
-  来访问，所以&lt;strong&gt;务必&lt;/strong&gt;记得手动在 &lt;code&gt;output&lt;/code&gt; 文件夹下添加一个 CNAME 文件，内容为
-  &lt;code&gt;news.hdujsjqx.org&lt;/code&gt;。 好了之后，建议使用使用 &lt;code&gt;ghp-import&lt;/code&gt; 来帮助我们更
-  加简单快捷地完成这一任务, 在 news 目录下运行 &lt;code&gt;ghp-import -p output&lt;/code&gt;，是的，
-  稍等一下你就可以看到你的文章已经可以在我们的网站上看到了。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;恩，总结一下。&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;push&lt;/span&gt; &lt;span class="n"&gt;origin&lt;/span&gt; &lt;span class="n"&gt;master&lt;/span&gt;  &lt;span class="err"&gt;#&lt;/span&gt; &lt;span class="err"&gt;将本地的新的&lt;/span&gt; &lt;span class="n"&gt;markdown&lt;/span&gt; &lt;span class="err"&gt;文件推送到&lt;/span&gt; &lt;span class="n"&gt;github&lt;/span&gt;
-&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;ghp&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;import&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;p&lt;/span&gt; &lt;span class="n"&gt;output&lt;/span&gt;    &lt;span class="err"&gt;#&lt;/span&gt; &lt;span class="err"&gt;更新网站&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;/li&gt;
-&lt;/ul&gt;</summary></entry><entry><title>阳光入园-12.17</title><link href="http://news.hdujsjqx.org/you-er-yuan-12-17.html" rel="alternate"></link><updated>2014-12-17T22:02:00+01:00</updated><author><name>HDU 计算机青协</name></author><id>tag:news.hdujsjqx.org,2014-12-17:you-er-yuan-12-17.html</id><summary type="html">&lt;p&gt;时隔一周，我们再次来到了星河幼儿园。一张张可爱的笑脸驱散了我们心中的烦扰与苦闷，
+<feed xmlns="http://www.w3.org/2005/Atom"><title>News</title><link href="http://news.hdujsjqx.org/" rel="alternate"></link><link href="http://news.hdujsjqx.org/feeds/hdu-ji-suan-ji-qing-xie.atom.xml" rel="self"></link><id>http://news.hdujsjqx.org/</id><updated>2014-12-24T16:24:00+01:00</updated><entry><title>阳光入园-12.24</title><link href="http://news.hdujsjqx.org/you-er-yuan-12-24.html" rel="alternate"></link><updated>2014-12-24T16:24:00+01:00</updated><author><name>HDU 计算机青协</name></author><id>tag:news.hdujsjqx.org,2014-12-24:you-er-yuan-12-24.html</id><summary type="html"></summary><category term="青协"></category><category term="阳光入园"></category></entry><entry><title>阳光入园-12.17</title><link href="http://news.hdujsjqx.org/you-er-yuan-12-17.html" rel="alternate"></link><updated>2014-12-17T22:02:00+01:00</updated><author><name>HDU 计算机青协</name></author><id>tag:news.hdujsjqx.org,2014-12-17:you-er-yuan-12-17.html</id><summary type="html">&lt;p&gt;时隔一周，我们再次来到了星河幼儿园。一张张可爱的笑脸驱散了我们心中的烦扰与苦闷，
 融入进孩子们的欢声笑语之中，心情立即轻松了许多。小朋友也十分期待我们的到来。&lt;/p&gt;
 &lt;p&gt;这次的活动为帮幼儿园将玩具从幼儿园楼顶搬到一楼清点玩具数量，并帮助整理书籍，
-制作圣诞装饰品，为小朋友的圣诞节做足准备。&lt;/p&gt;</summary><category term="青协"></category><category term="阳光入园"></category></entry><entry><title>阳光入园-12.10</title><link href="http://news.hdujsjqx.org/you-er-yuan-12-10.html" rel="alternate"></link><updated>2014-12-10T21:24:00+01:00</updated><author><name>HDU 计算机青协</name></author><id>tag:news.hdujsjqx.org,2014-12-10:you-er-yuan-12-10.html</id><summary type="html">&lt;p&gt;本次的活动为帮幼儿园完成纸质小树供小朋友们玩观赏，带他们装饰房间并帮老师们粘
-气球等等。直到下午四点半小伙伴们才依依不舍地告别小朋友们回到学校。&lt;/p&gt;</summary><category term="青协"></category><category term="阳光入园"></category></entry><entry><title>计算机小队第五次交流见面会</title><link href="http://news.hdujsjqx.org/xiao-dui-jian-mian-hui-5.html" rel="alternate"></link><updated>2014-12-05T20:39:00+01:00</updated><author><name>HDU 计算机青协</name></author><id>tag:news.hdujsjqx.org,2014-12-05:xiao-dui-jian-mian-hui-5.html</id><summary type="html">&lt;p&gt;在一个很适合开交流见面会的星期五晚上，我们计算机小队进行了第五次交流见面会。&lt;/p&gt;
+制作圣诞装饰品，为小朋友的圣诞节做足准备。&lt;/p&gt;</summary><category term="青协"></category><category term="阳光入园"></category></entry><entry><title>CCF 考试</title><link href="http://news.hdujsjqx.org/ccf-kaoshi.html" rel="alternate"></link><updated>2014-12-14T16:39:00+01:00</updated><author><name>HDU 计算机青协</name></author><id>tag:news.hdujsjqx.org,2014-12-14:ccf-kaoshi.html</id><summary type="html">&lt;p&gt;祝贺CCF志愿者活动结束！青协的小伙伴们在负责人的带领下积极参与CCF监考，虽然题目
+会很难，考试时间也长达四个小时，但是伙伴们都坚持下来啦，好样的哦！预祝你们取得
+好的成绩哟&lt;/p&gt;</summary><category term="青协"></category></entry><entry><title>阳光入园-12.10</title><link href="http://news.hdujsjqx.org/you-er-yuan-12-10.html" rel="alternate"></link><updated>2014-12-10T21:24:00+01:00</updated><author><name>HDU 计算机青协</name></author><id>tag:news.hdujsjqx.org,2014-12-10:you-er-yuan-12-10.html</id><summary type="html">&lt;p&gt;12月10号中午，青协的几个伙伴们在负责人的带队下前往星河幼儿园，帮助活泼可爱的
+小朋友们完成剪纸活动，还帮忙老师们粘了许许多多的五彩缤纷的气球哦，场面很萌萌哒
+有木有啦？快乐的时光总是过于短暂，但是青协的伙伴们已完全被孩子们的活泼与童真
+所感染了，即使在返回学校的路上也十分回味哦。好期待下一次的志愿者活动再与小朋友
+们见面啦！你是否也心动了呢？&lt;/p&gt;</summary><category term="青协"></category><category term="阳光入园"></category></entry><entry><title>计算机小队第五次交流见面会</title><link href="http://news.hdujsjqx.org/xiao-dui-jian-mian-hui-5.html" rel="alternate"></link><updated>2014-12-05T20:39:00+01:00</updated><author><name>HDU 计算机青协</name></author><id>tag:news.hdujsjqx.org,2014-12-05:xiao-dui-jian-mian-hui-5.html</id><summary type="html">&lt;p&gt;在一个很适合开交流见面会的星期五晚上，我们计算机小队进行了第五次交流见面会。&lt;/p&gt;
 &lt;p&gt;本次，由刘浩同学请的有爱的室友来讲了关于计算机维修的一些事情，并现场初步拆
 解一台笔记本示范给同学们看，具体讲解了过程和注意事项。&lt;/p&gt;
 &lt;p&gt;希望大家相互交流，共同进步。&lt;/p&gt;
