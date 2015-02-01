@@ -28,11 +28,11 @@
 
 * 写文章。文本语法使用 markdown(.md 结尾)， 开头都要有相应的元数据，比如
 
-    > Title: “点滴温暖，感恩于心”--感恩节活动     # 标题
-    > Date: 2014-11-26 21:09                      # 日期时间
-    > Category: 2014                              # 分类, 暂时按照年份
-    > Tags: 青协                                  # 标签，请打上不同的标签
-    > Slug: gan-en-jie                            # 这个与链接有关，这篇文章为 http://news.hdujsjqx.org/gan-en-jie
+        Title: “点滴温暖，感恩于心”--感恩节活动     # 标题
+        Date: 2014-11-26 21:09                      # 日期时间
+        Category: 2014                              # 分类, 暂时按照年份
+        Tags: 青协                                  # 标签，请打上不同的标签
+        Slug: gan-en-jie                            # 这个与链接有关，这篇文章为 http://news.hdujsjqx.org/gan-en-jie
 
   文章的内容见前面所说的`新闻文章写些什么`。如果感觉可以，并且你有相应的权限，
   那么可以 push 到 github 上了。
